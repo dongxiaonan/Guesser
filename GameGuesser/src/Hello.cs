@@ -1,13 +1,12 @@
 ﻿using System;
-using Guesser;
 
-namespace gusser
+namespace GameGuesser
 {
 	public class Hello
 	{
 		public static void Main ()
 		{
-
+			var obj = new GuesserNumber ();
 		}
 	}
 }

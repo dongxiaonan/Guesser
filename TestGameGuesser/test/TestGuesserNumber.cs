@@ -1,9 +1,9 @@
 ﻿using System;
-using NUnit.Framework;
 using System.Collections.Generic;
-using Guesser;
+using NUnit.Framework;
+using GameGuesser;
 
-namespace testGuesser
+namespace TestGameGuesser
 {
 	[TestFixture]
 	public class TestGuseeNumber : GuesserNumber

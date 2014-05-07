@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Guesser
+namespace GameGuesser
 {
 	public class GuesserNumber
 	{
@@ -51,18 +51,11 @@ namespace Guesser
 				if (!data.Contains(temp))
 					data.Add (temp);
 			}
-
-<<<<<<< HEAD
+				
 			SecurityNumber = translate(data);
 		}
 
-		public string translate(List<int> data)
-=======
-			return translate(data);
-		}
-
 		public static string translate(List<int> data)
->>>>>>> 972daa587134390a96f89bfe39aebdecf1ee41fa
 		{
 			string ans = "";
 			for (int i = 0; i < data.Capacity; i++)

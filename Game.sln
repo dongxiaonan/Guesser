@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameGuesser", "GameGuesser\GameGuesser.csproj", "{875AD4DD-16A3-4E67-85E4-2CAA91FA9FB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGameGuesser", "TestGameGuesser\TestGameGuesser.csproj", "{47AFAB78-1100-428B-A996-E1F208457EA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47AFAB78-1100-428B-A996-E1F208457EA6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{47AFAB78-1100-428B-A996-E1F208457EA6}.Debug|x86.Build.0 = Debug|Any CPU
+		{47AFAB78-1100-428B-A996-E1F208457EA6}.Release|x86.ActiveCfg = Release|Any CPU
+		{47AFAB78-1100-428B-A996-E1F208457EA6}.Release|x86.Build.0 = Release|Any CPU
+		{875AD4DD-16A3-4E67-85E4-2CAA91FA9FB6}.Debug|x86.ActiveCfg = Debug|x86
+		{875AD4DD-16A3-4E67-85E4-2CAA91FA9FB6}.Debug|x86.Build.0 = Debug|x86
+		{875AD4DD-16A3-4E67-85E4-2CAA91FA9FB6}.Release|x86.ActiveCfg = Release|x86
+		{875AD4DD-16A3-4E67-85E4-2CAA91FA9FB6}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = GameGuesser\GameGuesser.csproj
+	EndGlobalSection
+EndGlobal
