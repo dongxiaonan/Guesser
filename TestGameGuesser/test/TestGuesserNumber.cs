@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using NUnit.Framework;
 using GameGuesser;
 
+
 namespace TestGameGuesser
 {
 	[TestFixture]
@@ -49,6 +50,22 @@ namespace TestGameGuesser
 			string expectedAnswer = "1A2B";
 			string answer = guess.guessNumber (input);
 			Assert.AreEqual(expectedAnswer,answer);
+		}
+
+		[Test]
+		public void given_wrong_number_for_six_times_get_message_lose_times ()
+		{
+			string input = "3456";
+			var expectedAnswer = "0A2B";
+			int count = guess.guessCount;
+			string expectedCount = Convert.ToString (count + 1);
+			string answer = guess.guessNumber (input);
+			string expectedMsg = string.Format("Wrong input for {0} times : {1}",guess.guessCount,answer);
+
+			Assert.IsTrue(expectedMsg.Contains (expectedCount));
+			Assert.IsTrue(expectedMsg.Contains (expectedAnswer));
+		
+
 		}
 
 

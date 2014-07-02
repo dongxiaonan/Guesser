@@ -9,6 +9,7 @@ namespace GameGuesser
 		public GuesserNumber()
 		{
 			numberCreate ();
+			guessCount = 0;
 		}
 
 		public GuesserNumber(string num)
@@ -23,6 +24,7 @@ namespace GameGuesser
 
 		public string guessNumber (string input)
 		{
+			guessCount++;
 			int localRight = 0;
 			int right = 0;
 			for (int i=0 ;i< SecurityNumber.Length;i++) 
@@ -75,6 +77,7 @@ namespace GameGuesser
 		}
 
 		public string SecurityNumber;
+		public int guessCount;
 	}
 }
 

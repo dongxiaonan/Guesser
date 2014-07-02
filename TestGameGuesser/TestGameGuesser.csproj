@@ -35,15 +35,16 @@
   <ItemGroup>
     <Compile Include="test\TestGuesserNumber.cs" />
     <Compile Include="test\TestNumberCreated.cs" />
+    <Compile Include="test\EmptyClass.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="test\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GameGuesser\GameGuesser.csproj">
-      <Project>{875AD4DD-16A3-4E67-85E4-2CAA91FA9FB6}</Project>
-      <Name>GameGuesser</Name>
+    <ProjectReference Include="..\Guesser\Guesser.csproj">
+      <Project>{399EB356-453B-436E-8DB6-8E087DE07491}</Project>
+      <Name>Guesser</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
